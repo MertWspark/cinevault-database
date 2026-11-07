@@ -4,6 +4,8 @@ CineVault, film ve dizi keşfetme, liste oluşturma ve paylaşma uygulamam (Flut
 
 Üretimdeki şema 48 migration dosyasından oluşuyor. Burada güvenlik ve veri modeli açısından en öğretici kısımları, tek başına çalıştırılabilecek ve test edilebilecek şekilde topladım. Uygulama kodu bu depoda yok.
 
+**Web sürümü:** [cinevault-by-mk.netlify.app](https://cinevault-by-mk.netlify.app/)
+
 ## İçerik
 
 | Dosya | Ne var |
@@ -63,5 +65,6 @@ Testler başarılıysa son satırda `TÜM TESTLER GEÇTİ` yazar. Supabase'e uyg
 ## Notlar
 
 - Bu kodu yazarken yapay zeka destekli geliştirme araçlarını kullandım. Veri modelini, güvenlik kurallarını ve bu kararları ben belirledim, testlerle doğruladım.
+- Uygulamanın Flutter/Dart kodu büyük ölçüde yapay zeka araçlarıyla yazıldı; Flutter'ı yeni öğreniyorum. Bu projedeki katkım ürün tasarımı, özellik kararları, test ve veritabanı tarafı.
 - Yasaklı kullanıcı adı listesi bu depoda kısaltıldı.
 - Bu depodaki kod yalnızca inceleme amaçlıdır; kullanım izni verilmemiştir (bkz. `LICENSE`).
